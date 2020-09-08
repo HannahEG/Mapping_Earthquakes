@@ -9,7 +9,7 @@ let map = L.map('mapid').setView([34.0522, -118.2437], 14);
 //let marker = L.marker([34.0522, -118.2437]).addTo(map);
 L.circleMarker([34.0522, -118.2437], {
 	color: 'black',
-    fillColor: "#ffffa1",
+    fillColor: "#ffffa1", 
    // fillOpacity: 0.5,
 	radius: 300
  }).addTo(map);
